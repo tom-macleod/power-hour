@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
 
   hasStarted: boolean = false;
   timer: number = 60;
-  shots: number = 38;
+  shots: number = 0;
   displayDrink: boolean = false;
   timerInterval;
   audio = new Audio('../assets/airhorn.mp3');
@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
   }
 
   restartTimer() {
-    this.shots = 38;
+    this.shots = 0;
     this.timerService.shotCounter.emit(this.shots);
     this.timer = 60;
   }

@@ -8,7 +8,7 @@ import { TimerService } from "../timer-service.service";
 })
 export class HeaderComponent implements OnInit {
 
-  shots: number = 38;
+  shots: number = 0;
 
   constructor(private timerService: TimerService) { }
 
