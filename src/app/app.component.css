@@ -1,0 +1,21 @@
+#skyline {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+h1 {
+    font-family: Lato;
+}
+
+#timer {
+    font-size: 60px;
+}
+
+#drink-message {
+    font-size: 75px;
+}
+
+.yellow-letter {
+    color: gold;
+}

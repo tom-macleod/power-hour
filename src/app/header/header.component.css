@@ -1,0 +1,24 @@
+a {
+    cursor: pointer;
+}
+
+#martini-glass {
+    height: 35px;
+}
+
+.hover-green:hover {
+    color: green !important;
+}
+
+.hover-red:hover {
+    color: red !important;
+}
+
+.hover-blue:hover {
+    color: dodgerblue !important;
+}
+
+#shot-counter {
+    color: yellow;
+}
+
